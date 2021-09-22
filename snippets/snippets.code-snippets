@@ -1,10 +1,15 @@
 {
-    "State": {
-        "prefix": "state",
+    "Page": {
+        "prefix": "page",
         "body": [
+            "import 'package:flutter/material.dart';",
             "import 'package:jasn/jasn.dart';",
             "",
+            "import '${1:my}_Controller;",
+            "",
             "class ${1:My}Page extends StateWidget<${1:My}Controller> {",
+            "",
+            "\tconst ${1:My}Page({Key? key}):super(key:key);",
             "",
             "@override",
             "${1:My}Controller createState()=> ${1:My}Controller();",
@@ -12,12 +17,16 @@
             "\t@override",
             "\tWidget build(BuildContext context) {",
             "",
-            "\t\treturn Scaffold();",
+            "\t\treturn Scaffold(",
+            "\t\t\tchild: Container()",
+            "\t\t);",
+            "",
             "\t}",
             "}"
         ]
     },
-    "JasController": {
+    "Controller": {
+        "prefix": "controller",
         "body": [
             "import 'package:jasn/jasn.dart';",
             "",

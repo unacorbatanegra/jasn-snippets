@@ -2,13 +2,21 @@
     "name": "jasn-snippets",
     "displayName": "jasn_snippets",
     "description": "Simple extension",
-    "version": "0.0.1",
+    "version": "1.0.1",
+    "publisher": "unacorbatanegra",
     "engines": {
         "vscode": "^1.60.0"
     },
     "categories": [
         "Snippets"
     ],
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/unacorbatanegra/jasn-snippets"
+	},
+    "bugs": {
+		"url": "https://github.com/unacorbatanegra/jasn-snippets/issues"
+	},
     "contributes": {
         "snippets": [
             {
