@@ -1,0 +1,29 @@
+{
+    "State": {
+        "prefix": "state",
+        "body": [
+            "import 'package:jasn/jasn.dart';",
+            "",
+            "class ${1:My}Page extends StateWidget<${1:My}Controller> {",
+            "",
+            "@override",
+            "${1:My}Controller createState()=> ${1:My}Controller();",
+            "",
+            "\t@override",
+            "\tWidget build(BuildContext context) {",
+            "",
+            "\t\treturn Scaffold();",
+            "\t}",
+            "}"
+        ]
+    },
+    "JasController": {
+        "body": [
+            "import 'package:jasn/jasn.dart';",
+            "",
+            "class ${1:My}Controller extends StateController<${1:My}Page> {",
+            "",
+            "}"
+        ]
+    }
+}
