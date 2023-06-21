@@ -1,8 +1,8 @@
 {
-    "name": "jasn-snippets",
-    "displayName": "jasn_snippets",
+    "name": "occam-snippets",
+    "displayName": "occam-snippets",
     "description": "Simple extension",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "unacorbatanegra",
     "engines": {
         "vscode": "^1.60.0"
@@ -11,12 +11,12 @@
         "Snippets"
     ],
     "repository": {
-		"type": "git",
-		"url": "https://github.com/unacorbatanegra/jasn-snippets"
-	},
+        "type": "git",
+        "url": "https://github.com/unacorbatanegra/occam-snippets"
+    },
     "bugs": {
-		"url": "https://github.com/unacorbatanegra/jasn-snippets/issues"
-	},
+        "url": "https://github.com/unacorbatanegra/occam-snippets/issues"
+    },
     "contributes": {
         "snippets": [
             {
@@ -24,5 +24,8 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^2.6.3"
     }
 }

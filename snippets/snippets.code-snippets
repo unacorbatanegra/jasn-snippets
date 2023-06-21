@@ -1,36 +1,35 @@
 {
-    "Page": {
-        "prefix": "page",
+    "Occam Page": {
+        "prefix": "opage",
         "body": [
             "import 'package:flutter/material.dart';",
-            "import 'package:jasn/jasn.dart';",
+            "import 'package:occam/occam.dart';",
             "",
-            "import '${1:my}_Controller;",
             "",
             "class ${1:My}Page extends StateWidget<${1:My}Controller> {",
             "",
             "\tconst ${1:My}Page({Key? key}):super(key:key);",
             "",
             "@override",
-            "${1:My}Controller createState()=> ${1:My}Controller();",
+            "\t${1:My}Controller createState()=> ${1:My}Controller();",
             "",
             "\t@override",
             "\tWidget build(BuildContext context) {",
             "",
             "\t\treturn Scaffold(",
-            "\t\t\tchild: Container()",
+            "\t\t\tbody: Container()",
             "\t\t);",
             "",
             "\t}",
             "}"
         ]
     },
-    "Controller": {
-        "prefix": "controller",
+    "Occam Controller": {
+        "prefix": "ocontroller",
         "body": [
-            "import 'package:jasn/jasn.dart';",
+            "import 'package:occam/occam.dart';",
             "",
-            "class ${1:My}Controller extends StateController<${1:My}Page> {",
+            "class ${1:My}Controller extends StateController {",
             "",
             "}"
         ]
